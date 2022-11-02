@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poor+Story&display=swap');
+
+body {
+  background-color: #CDCDCB;
+
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #003249;
+}
+
+h1 {
+  font-family: 'poor+story', cursive;
+  font-size: 48px;
+  font-weight: bold;
+  font-weight: 800;
+  color: #003249;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #003249;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #003249;
+  line-height: 1.6;
+  padding: 24px;
+}
+
+i {
+  color: #003249;
+  font-size: 80px;
+  letter-spacing: 32px;
+}
+
+a {
+  color: #540D6E;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.btn-purple {
+  background-color: #751d89;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #7FACC7;
+  border-radius: 8px;
+  border: 3px solid #003249;
+  box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.6);
+  width: 70%;
+  margin: 32px auto;
+  padding: 32px;
+  text-align: center;
+}
+
+#ride {
+
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a:hover {
+  background-color: rgb(30, 157, 56);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
